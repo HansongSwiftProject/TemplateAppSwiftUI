@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		412FF064255818400022A055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF063255818400022A055 /* AppDelegate.swift */; };
+		412FF068255818400022A055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF067255818400022A055 /* ViewController.swift */; };
+		412FF06B255818400022A055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412FF069255818400022A055 /* Main.storyboard */; };
+		412FF06E255818400022A055 /* NetAVPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 412FF06C255818400022A055 /* NetAVPlayer.xcdatamodeld */; };
+		412FF070255818420022A055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412FF06F255818420022A055 /* Assets.xcassets */; };
+		412FF073255818420022A055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412FF071255818420022A055 /* LaunchScreen.storyboard */; };
+		412FF07E255818420022A055 /* NetAVPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF07D255818420022A055 /* NetAVPlayerTests.swift */; };
+		412FF089255818420022A055 /* NetAVPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF088255818420022A055 /* NetAVPlayerUITests.swift */; };
+		412FF09B2558186B0022A055 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF09A2558186B0022A055 /* PlayerView.swift */; };
+		412FF0A8255818AF0022A055 /* GlobalConfigDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF0A7255818AF0022A055 /* GlobalConfigDefinition.swift */; };
+		412FF0AD255818D00022A055 /* GlobalFun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF0AC255818D00022A055 /* GlobalFun.swift */; };
+		412FF0B5255820920022A055 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF0B4255820920022A055 /* DetailController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		412FF07A255818420022A055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412FF058255818400022A055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412FF05F255818400022A055;
+			remoteInfo = NetAVPlayer;
+		};
+		412FF085255818420022A055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412FF058255818400022A055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412FF05F255818400022A055;
+			remoteInfo = NetAVPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		412FF060255818400022A055 /* NetAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		412FF063255818400022A055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		412FF067255818400022A055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		412FF06A255818400022A055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		412FF06D255818400022A055 /* NetAVPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetAVPlayer.xcdatamodel; sourceTree = "<group>"; };
+		412FF06F255818420022A055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		412FF072255818420022A055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		412FF074255818420022A055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412FF079255818420022A055 /* NetAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		412FF07D255818420022A055 /* NetAVPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetAVPlayerTests.swift; sourceTree = "<group>"; };
+		412FF07F255818420022A055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412FF084255818420022A055 /* NetAVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetAVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		412FF088255818420022A055 /* NetAVPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetAVPlayerUITests.swift; sourceTree = "<group>"; };
+		412FF08A255818420022A055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412FF09A2558186B0022A055 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		412FF0A7255818AF0022A055 /* GlobalConfigDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConfigDefinition.swift; sourceTree = "<group>"; };
+		412FF0AC255818D00022A055 /* GlobalFun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFun.swift; sourceTree = "<group>"; };
+		412FF0B4255820920022A055 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		412FF05D255818400022A055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412FF076255818420022A055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412FF081255818420022A055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		412FF057255818400022A055 = {
+			isa = PBXGroup;
+			children = (
+				412FF062255818400022A055 /* NetAVPlayer */,
+				412FF07C255818420022A055 /* NetAVPlayerTests */,
+				412FF087255818420022A055 /* NetAVPlayerUITests */,
+				412FF061255818400022A055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		412FF061255818400022A055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412FF060255818400022A055 /* NetAVPlayer.app */,
+				412FF079255818420022A055 /* NetAVPlayerTests.xctest */,
+				412FF084255818420022A055 /* NetAVPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		412FF062255818400022A055 /* NetAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				412FF063255818400022A055 /* AppDelegate.swift */,
+				412FF067255818400022A055 /* ViewController.swift */,
+				412FF0A7255818AF0022A055 /* GlobalConfigDefinition.swift */,
+				412FF0AC255818D00022A055 /* GlobalFun.swift */,
+				412FF0B4255820920022A055 /* DetailController.swift */,
+				412FF0992558186B0022A055 /* view */,
+				412FF069255818400022A055 /* Main.storyboard */,
+				412FF06F255818420022A055 /* Assets.xcassets */,
+				412FF071255818420022A055 /* LaunchScreen.storyboard */,
+				412FF074255818420022A055 /* Info.plist */,
+				412FF06C255818400022A055 /* NetAVPlayer.xcdatamodeld */,
+			);
+			path = NetAVPlayer;
+			sourceTree = "<group>";
+		};
+		412FF07C255818420022A055 /* NetAVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				412FF07D255818420022A055 /* NetAVPlayerTests.swift */,
+				412FF07F255818420022A055 /* Info.plist */,
+			);
+			path = NetAVPlayerTests;
+			sourceTree = "<group>";
+		};
+		412FF087255818420022A055 /* NetAVPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				412FF088255818420022A055 /* NetAVPlayerUITests.swift */,
+				412FF08A255818420022A055 /* Info.plist */,
+			);
+			path = NetAVPlayerUITests;
+			sourceTree = "<group>";
+		};
+		412FF0992558186B0022A055 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				412FF09A2558186B0022A055 /* PlayerView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		412FF05F255818400022A055 /* NetAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412FF08D255818420022A055 /* Build configuration list for PBXNativeTarget "NetAVPlayer" */;
+			buildPhases = (
+				412FF05C255818400022A055 /* Sources */,
+				412FF05D255818400022A055 /* Frameworks */,
+				412FF05E255818400022A055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetAVPlayer;
+			productName = NetAVPlayer;
+			productReference = 412FF060255818400022A055 /* NetAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		412FF078255818420022A055 /* NetAVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412FF090255818420022A055 /* Build configuration list for PBXNativeTarget "NetAVPlayerTests" */;
+			buildPhases = (
+				412FF075255818420022A055 /* Sources */,
+				412FF076255818420022A055 /* Frameworks */,
+				412FF077255818420022A055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412FF07B255818420022A055 /* PBXTargetDependency */,
+			);
+			name = NetAVPlayerTests;
+			productName = NetAVPlayerTests;
+			productReference = 412FF079255818420022A055 /* NetAVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		412FF083255818420022A055 /* NetAVPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412FF093255818420022A055 /* Build configuration list for PBXNativeTarget "NetAVPlayerUITests" */;
+			buildPhases = (
+				412FF080255818420022A055 /* Sources */,
+				412FF081255818420022A055 /* Frameworks */,
+				412FF082255818420022A055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412FF086255818420022A055 /* PBXTargetDependency */,
+			);
+			name = NetAVPlayerUITests;
+			productName = NetAVPlayerUITests;
+			productReference = 412FF084255818420022A055 /* NetAVPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		412FF058255818400022A055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					412FF05F255818400022A055 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					412FF078255818420022A055 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 412FF05F255818400022A055;
+					};
+					412FF083255818420022A055 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 412FF05F255818400022A055;
+					};
+				};
+			};
+			buildConfigurationList = 412FF05B255818400022A055 /* Build configuration list for PBXProject "NetAVPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 412FF057255818400022A055;
+			productRefGroup = 412FF061255818400022A055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				412FF05F255818400022A055 /* NetAVPlayer */,
+				412FF078255818420022A055 /* NetAVPlayerTests */,
+				412FF083255818420022A055 /* NetAVPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		412FF05E255818400022A055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412FF073255818420022A055 /* LaunchScreen.storyboard in Resources */,
+				412FF070255818420022A055 /* Assets.xcassets in Resources */,
+				412FF06B255818400022A055 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412FF077255818420022A055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412FF082255818420022A055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		412FF05C255818400022A055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412FF068255818400022A055 /* ViewController.swift in Sources */,
+				412FF0B5255820920022A055 /* DetailController.swift in Sources */,
+				412FF064255818400022A055 /* AppDelegate.swift in Sources */,
+				412FF0A8255818AF0022A055 /* GlobalConfigDefinition.swift in Sources */,
+				412FF09B2558186B0022A055 /* PlayerView.swift in Sources */,
+				412FF0AD255818D00022A055 /* GlobalFun.swift in Sources */,
+				412FF06E255818400022A055 /* NetAVPlayer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412FF075255818420022A055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412FF07E255818420022A055 /* NetAVPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412FF080255818420022A055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412FF089255818420022A055 /* NetAVPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		412FF07B255818420022A055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412FF05F255818400022A055 /* NetAVPlayer */;
+			targetProxy = 412FF07A255818420022A055 /* PBXContainerItemProxy */;
+		};
+		412FF086255818420022A055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412FF05F255818400022A055 /* NetAVPlayer */;
+			targetProxy = 412FF085255818420022A055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		412FF069255818400022A055 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412FF06A255818400022A055 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		412FF071255818420022A055 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412FF072255818420022A055 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		412FF08B255818420022A055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		412FF08C255818420022A055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		412FF08E255818420022A055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetAVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.NetAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		412FF08F255818420022A055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetAVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.NetAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		412FF091255818420022A055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetAVPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.NetAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetAVPlayer.app/NetAVPlayer";
+			};
+			name = Debug;
+		};
+		412FF092255818420022A055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetAVPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.NetAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetAVPlayer.app/NetAVPlayer";
+			};
+			name = Release;
+		};
+		412FF094255818420022A055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.NetAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetAVPlayer;
+			};
+			name = Debug;
+		};
+		412FF095255818420022A055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.NetAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetAVPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		412FF05B255818400022A055 /* Build configuration list for PBXProject "NetAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412FF08B255818420022A055 /* Debug */,
+				412FF08C255818420022A055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412FF08D255818420022A055 /* Build configuration list for PBXNativeTarget "NetAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412FF08E255818420022A055 /* Debug */,
+				412FF08F255818420022A055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412FF090255818420022A055 /* Build configuration list for PBXNativeTarget "NetAVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412FF091255818420022A055 /* Debug */,
+				412FF092255818420022A055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412FF093255818420022A055 /* Build configuration list for PBXNativeTarget "NetAVPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412FF094255818420022A055 /* Debug */,
+				412FF095255818420022A055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		412FF06C255818400022A055 /* NetAVPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				412FF06D255818400022A055 /* NetAVPlayer.xcdatamodel */,
+			);
+			currentVersion = 412FF06D255818400022A055 /* NetAVPlayer.xcdatamodel */;
+			path = NetAVPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 412FF058255818400022A055 /* Project object */;
+}
