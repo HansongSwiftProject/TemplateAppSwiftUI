@@ -28,6 +28,35 @@
 		412FEF992557F95D0022A055 /* CFMyInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEF982557F95D0022A055 /* CFMyInfoController.swift */; };
 		412FEF9E2557F9720022A055 /* CFHotspotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEF9D2557F9720022A055 /* CFHotspotController.swift */; };
 		412FEFA32557F9860022A055 /* CFHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFA22557F9860022A055 /* CFHomePageController.swift */; };
+		412FEFAB2558001D0022A055 /* extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFAA2558001D0022A055 /* extension+String.swift */; };
+		412FEFB3255800650022A055 /* NavigationItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFB2255800650022A055 /* NavigationItemViewCell.swift */; };
+		412FEFBB255800820022A055 /* ProtocolAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFBA255800820022A055 /* ProtocolAction.swift */; };
+		412FEFC0255800AE0022A055 /* BaseSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFBF255800AE0022A055 /* BaseSearchView.swift */; };
+		412FEFC5255801020022A055 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFC4255801020022A055 /* SearchController.swift */; };
+		412FEFCA255801620022A055 /* EditMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFC9255801620022A055 /* EditMenuController.swift */; };
+		412FEFD7255801770022A055 /* EditMenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFD6255801770022A055 /* EditMenuHeader.swift */; };
+		412FEFDC255801AF0022A055 /* EditMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFDB255801AF0022A055 /* EditMenuCell.swift */; };
+		412FEFE12558033F0022A055 /* NavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFE02558033F0022A055 /* NavigationItemView.swift */; };
+		412FEFE6255803B90022A055 /* CFPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFE5255803B90022A055 /* CFPageScrollView.swift */; };
+		412FEFEC25580E080022A055 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFEB25580E080022A055 /* SearchView.swift */; };
+		412FEFF425580E4D0022A055 /* SearchView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFF325580E4D0022A055 /* SearchView2.swift */; };
+		412FEFF925580E760022A055 /* SearchView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FEFF825580E760022A055 /* SearchView3.swift */; };
+		412FF00125580F0B0022A055 /* ChildCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF00025580F0B0022A055 /* ChildCell1.swift */; };
+		412FF00925580F3E0022A055 /* ChildCircleHeader1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF00825580F3E0022A055 /* ChildCircleHeader1.swift */; };
+		412FF00E25580F480022A055 /* ChildNoticeHeader1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF00D25580F480022A055 /* ChildNoticeHeader1.swift */; };
+		412FF01325580F560022A055 /* ADNoticeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF01225580F560022A055 /* ADNoticeViewCell.swift */; };
+		412FF01825580FE40022A055 /* ChildController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF01725580FE40022A055 /* ChildController1.swift */; };
+		412FF01D25580FEF0022A055 /* ChildController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF01C25580FEF0022A055 /* ChildController2.swift */; };
+		412FF02225580FFE0022A055 /* ChildController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF02125580FFE0022A055 /* ChildController3.swift */; };
+		412FF027255810080022A055 /* ChildController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF026255810080022A055 /* ChildController4.swift */; };
+		412FF02C255810120022A055 /* ChildController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF02B255810120022A055 /* ChildController5.swift */; };
+		412FF0312558101D0022A055 /* ChildController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF0302558101D0022A055 /* ChildController6.swift */; };
+		412FF036255810270022A055 /* ChildController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF035255810270022A055 /* ChildController7.swift */; };
+		412FF03B255810300022A055 /* ChildController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF03A255810300022A055 /* ChildController8.swift */; };
+		412FF040255810390022A055 /* ChildController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF03F255810390022A055 /* ChildController9.swift */; };
+		412FF045255810410022A055 /* ChildController10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF044255810410022A055 /* ChildController10.swift */; };
+		412FF04B255812940022A055 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF04A255812940022A055 /* PlayerView.swift */; };
+		412FF053255813040022A055 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FF052255813040022A055 /* DetailController.swift */; };
 		C09210DA19F7E7930FDDDC8F /* Pods_TemplateSwiftProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1628AFA5707EFA9BE4841D2 /* Pods_TemplateSwiftProjectTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +107,35 @@
 		412FEF982557F95D0022A055 /* CFMyInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFMyInfoController.swift; sourceTree = "<group>"; };
 		412FEF9D2557F9720022A055 /* CFHotspotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFHotspotController.swift; sourceTree = "<group>"; };
 		412FEFA22557F9860022A055 /* CFHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFHomePageController.swift; sourceTree = "<group>"; };
+		412FEFAA2558001D0022A055 /* extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+String.swift"; sourceTree = "<group>"; };
+		412FEFB2255800650022A055 /* NavigationItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItemViewCell.swift; sourceTree = "<group>"; };
+		412FEFBA255800820022A055 /* ProtocolAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolAction.swift; sourceTree = "<group>"; };
+		412FEFBF255800AE0022A055 /* BaseSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSearchView.swift; sourceTree = "<group>"; };
+		412FEFC4255801020022A055 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		412FEFC9255801620022A055 /* EditMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuController.swift; sourceTree = "<group>"; };
+		412FEFD6255801770022A055 /* EditMenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuHeader.swift; sourceTree = "<group>"; };
+		412FEFDB255801AF0022A055 /* EditMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuCell.swift; sourceTree = "<group>"; };
+		412FEFE02558033F0022A055 /* NavigationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItemView.swift; sourceTree = "<group>"; };
+		412FEFE5255803B90022A055 /* CFPageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFPageScrollView.swift; sourceTree = "<group>"; };
+		412FEFEB25580E080022A055 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		412FEFF325580E4D0022A055 /* SearchView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView2.swift; sourceTree = "<group>"; };
+		412FEFF825580E760022A055 /* SearchView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView3.swift; sourceTree = "<group>"; };
+		412FF00025580F0B0022A055 /* ChildCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCell1.swift; sourceTree = "<group>"; };
+		412FF00825580F3E0022A055 /* ChildCircleHeader1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCircleHeader1.swift; sourceTree = "<group>"; };
+		412FF00D25580F480022A055 /* ChildNoticeHeader1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildNoticeHeader1.swift; sourceTree = "<group>"; };
+		412FF01225580F560022A055 /* ADNoticeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADNoticeViewCell.swift; sourceTree = "<group>"; };
+		412FF01725580FE40022A055 /* ChildController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController1.swift; sourceTree = "<group>"; };
+		412FF01C25580FEF0022A055 /* ChildController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController2.swift; sourceTree = "<group>"; };
+		412FF02125580FFE0022A055 /* ChildController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController3.swift; sourceTree = "<group>"; };
+		412FF026255810080022A055 /* ChildController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController4.swift; sourceTree = "<group>"; };
+		412FF02B255810120022A055 /* ChildController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController5.swift; sourceTree = "<group>"; };
+		412FF0302558101D0022A055 /* ChildController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController6.swift; sourceTree = "<group>"; };
+		412FF035255810270022A055 /* ChildController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController7.swift; sourceTree = "<group>"; };
+		412FF03A255810300022A055 /* ChildController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController8.swift; sourceTree = "<group>"; };
+		412FF03F255810390022A055 /* ChildController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController9.swift; sourceTree = "<group>"; };
+		412FF044255810410022A055 /* ChildController10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildController10.swift; sourceTree = "<group>"; };
+		412FF04A255812940022A055 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		412FF052255813040022A055 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		74DECE16ADBC0126AA611C44 /* Pods-TemplateSwiftProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateSwiftProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-TemplateSwiftProjectTests/Pods-TemplateSwiftProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		798948EA286881E66CF26751 /* Pods-TemplateSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateSwiftProject.release.xcconfig"; path = "Target Support Files/Pods-TemplateSwiftProject/Pods-TemplateSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 		7A04AA00B6CACE99B79796E3 /* Pods_TemplateSwiftProject_TemplateSwiftProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemplateSwiftProject_TemplateSwiftProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +198,7 @@
 		412FEEB32557ED060022A055 /* TemplateSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				412FEFA72557FFD50022A055 /* Library */,
 				412FEF512557F53F0022A055 /* Viewcontroller */,
 				412FEF432557F4570022A055 /* GlobalConfigDefinition */,
 				412FEF2F2557F35C0022A055 /* ToolManager */,
@@ -225,6 +284,8 @@
 		412FEF812557F7BE0022A055 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				412FEFFD25580E9C0022A055 /* ChildController */,
+				412FEFEA25580DF70022A055 /* View */,
 				412FEFA22557F9860022A055 /* CFHomePageController.swift */,
 			);
 			path = HomePage;
@@ -260,6 +321,96 @@
 				412FEF8B2557F9330022A055 /* CFVIPMemberController.swift */,
 			);
 			path = VIPMemberPage;
+			sourceTree = "<group>";
+		};
+		412FEFA72557FFD50022A055 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				412FEFA92557FFF90022A055 /* PageScrolView */,
+				412FEFA82557FFE70022A055 /* Extension */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		412FEFA82557FFE70022A055 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				412FEFAA2558001D0022A055 /* extension+String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		412FEFA92557FFF90022A055 /* PageScrolView */ = {
+			isa = PBXGroup;
+			children = (
+				412FEFB2255800650022A055 /* NavigationItemViewCell.swift */,
+				412FEFE02558033F0022A055 /* NavigationItemView.swift */,
+				412FEFBF255800AE0022A055 /* BaseSearchView.swift */,
+				412FEFBA255800820022A055 /* ProtocolAction.swift */,
+				412FEFC4255801020022A055 /* SearchController.swift */,
+				412FEFC9255801620022A055 /* EditMenuController.swift */,
+				412FEFD6255801770022A055 /* EditMenuHeader.swift */,
+				412FEFDB255801AF0022A055 /* EditMenuCell.swift */,
+				412FEFE5255803B90022A055 /* CFPageScrollView.swift */,
+			);
+			path = PageScrolView;
+			sourceTree = "<group>";
+		};
+		412FEFEA25580DF70022A055 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				412FEFEB25580E080022A055 /* SearchView.swift */,
+				412FEFF325580E4D0022A055 /* SearchView2.swift */,
+				412FEFF825580E760022A055 /* SearchView3.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		412FEFFD25580E9C0022A055 /* ChildController */ = {
+			isa = PBXGroup;
+			children = (
+				412FEFFF25580EFE0022A055 /* Child1View */,
+				412FEFFE25580EB10022A055 /* ChildController1 */,
+				412FF01725580FE40022A055 /* ChildController1.swift */,
+				412FF01C25580FEF0022A055 /* ChildController2.swift */,
+				412FF02125580FFE0022A055 /* ChildController3.swift */,
+				412FF026255810080022A055 /* ChildController4.swift */,
+				412FF02B255810120022A055 /* ChildController5.swift */,
+				412FF0302558101D0022A055 /* ChildController6.swift */,
+				412FF035255810270022A055 /* ChildController7.swift */,
+				412FF03A255810300022A055 /* ChildController8.swift */,
+				412FF03F255810390022A055 /* ChildController9.swift */,
+				412FF044255810410022A055 /* ChildController10.swift */,
+			);
+			path = ChildController;
+			sourceTree = "<group>";
+		};
+		412FEFFE25580EB10022A055 /* ChildController1 */ = {
+			isa = PBXGroup;
+			children = (
+				412FF049255812800022A055 /* view */,
+				412FF052255813040022A055 /* DetailController.swift */,
+			);
+			path = ChildController1;
+			sourceTree = "<group>";
+		};
+		412FEFFF25580EFE0022A055 /* Child1View */ = {
+			isa = PBXGroup;
+			children = (
+				412FF00025580F0B0022A055 /* ChildCell1.swift */,
+				412FF00825580F3E0022A055 /* ChildCircleHeader1.swift */,
+				412FF00D25580F480022A055 /* ChildNoticeHeader1.swift */,
+				412FF01225580F560022A055 /* ADNoticeViewCell.swift */,
+			);
+			path = Child1View;
+			sourceTree = "<group>";
+		};
+		412FF049255812800022A055 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				412FF04A255812940022A055 /* PlayerView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		546239B4D11E8A11838AE3BC /* Frameworks */ = {
@@ -523,19 +674,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412FF027255810080022A055 /* ChildController4.swift in Sources */,
 				412FEEB92557ED060022A055 /* ViewController.swift in Sources */,
+				412FF045255810410022A055 /* ChildController10.swift in Sources */,
+				412FEFC0255800AE0022A055 /* BaseSearchView.swift in Sources */,
+				412FF03B255810300022A055 /* ChildController8.swift in Sources */,
+				412FEFF925580E760022A055 /* SearchView3.swift in Sources */,
+				412FEFC5255801020022A055 /* SearchController.swift in Sources */,
+				412FEFB3255800650022A055 /* NavigationItemViewCell.swift in Sources */,
 				412FEF312557F37C0022A055 /* ModelTool.swift in Sources */,
+				412FF04B255812940022A055 /* PlayerView.swift in Sources */,
+				412FF01D25580FEF0022A055 /* ChildController2.swift in Sources */,
+				412FEFE12558033F0022A055 /* NavigationItemView.swift in Sources */,
+				412FF040255810390022A055 /* ChildController9.swift in Sources */,
+				412FF01325580F560022A055 /* ADNoticeViewCell.swift in Sources */,
 				412FEFA32557F9860022A055 /* CFHomePageController.swift in Sources */,
+				412FF053255813040022A055 /* DetailController.swift in Sources */,
 				412FEEB52557ED060022A055 /* AppDelegate.swift in Sources */,
+				412FF01825580FE40022A055 /* ChildController1.swift in Sources */,
 				412FEF452557F4820022A055 /* GlobalConfigDefinition.swift in Sources */,
+				412FEFE6255803B90022A055 /* CFPageScrollView.swift in Sources */,
+				412FEFDC255801AF0022A055 /* EditMenuCell.swift in Sources */,
+				412FF00925580F3E0022A055 /* ChildCircleHeader1.swift in Sources */,
+				412FF00E25580F480022A055 /* ChildNoticeHeader1.swift in Sources */,
+				412FF036255810270022A055 /* ChildController7.swift in Sources */,
+				412FEFBB255800820022A055 /* ProtocolAction.swift in Sources */,
 				412FEF912557F94B0022A055 /* CFStarController.swift in Sources */,
+				412FEFCA255801620022A055 /* EditMenuController.swift in Sources */,
+				412FF02225580FFE0022A055 /* ChildController3.swift in Sources */,
 				412FEF9E2557F9720022A055 /* CFHotspotController.swift in Sources */,
+				412FEFEC25580E080022A055 /* SearchView.swift in Sources */,
 				412FEF8C2557F9330022A055 /* CFVIPMemberController.swift in Sources */,
+				412FEFAB2558001D0022A055 /* extension+String.swift in Sources */,
 				412FEF992557F95D0022A055 /* CFMyInfoController.swift in Sources */,
+				412FEFF425580E4D0022A055 /* SearchView2.swift in Sources */,
 				412FEF542557F5720022A055 /* CFTabBarController.swift in Sources */,
 				412FEF2B2557F3390022A055 /* DataSoureFile.swift in Sources */,
+				412FF0312558101D0022A055 /* ChildController6.swift in Sources */,
+				412FF02C255810120022A055 /* ChildController5.swift in Sources */,
 				412FEF7A2557F77E0022A055 /* CFBaseController.swift in Sources */,
+				412FF00125580F0B0022A055 /* ChildCell1.swift in Sources */,
 				412FEF4D2557F4D90022A055 /* GlobalFun.swift in Sources */,
+				412FEFD7255801770022A055 /* EditMenuHeader.swift in Sources */,
 				412FEF392557F3D70022A055 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
