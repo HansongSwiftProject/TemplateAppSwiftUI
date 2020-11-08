@@ -1,0 +1,42 @@
+PODS:
+  - CocoaDebug (1.4.8):
+    - FBRetainCycleDetector
+  - FBRetainCycleDetector (0.1.4)
+  - MJExtension (3.2.2)
+  - MJRefresh (3.5.0)
+  - RollingNotice (1.1.1)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+
+DEPENDENCIES:
+  - CocoaDebug
+  - MJExtension
+  - MJRefresh
+  - RollingNotice
+  - SDCycleScrollView
+
+SPEC REPOS:
+  trunk:
+    - CocoaDebug
+    - FBRetainCycleDetector
+    - MJExtension
+    - MJRefresh
+    - RollingNotice
+    - SDCycleScrollView
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  CocoaDebug: 438fed049090d61c777d464eb2771ca87e1430ed
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  RollingNotice: 1f14ea9d0157a7178bbfcae27bb7a4876f41b935
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+
+PODFILE CHECKSUM: 518d837fd5a608efa2385213e4b5ea76793f8804
+
+COCOAPODS: 1.10.0

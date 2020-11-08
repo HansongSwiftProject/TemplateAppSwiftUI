@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TemplateSwiftProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'MJExtension'
+  pod 'MJRefresh'
+  pod 'SDCycleScrollView'
+  pod 'RollingNotice'
+  pod 'CocoaDebug'
+  # Pods for TemplateSwiftProject
+
+  target 'TemplateSwiftProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TemplateSwiftProjectUITests' do
+    # Pods for testing
+  end
+
+end
